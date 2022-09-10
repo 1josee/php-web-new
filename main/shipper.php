@@ -96,7 +96,7 @@
                         }
                         $count_id++;
                         $featuredProductsCount++;
-                        if ($featuredProductsCount == 15) {
+                        if ($featuredProductsCount == 45) {
                             break;
                         }         
                     }
