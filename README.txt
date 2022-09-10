@@ -46,3 +46,9 @@ Each input will have a separate requirement such as:
 - The description must contain at most 500 characters
 If some inputs are not correct, the seller will not be able to add the product. After adding the product, the products will be updated on the page. The seller can see the clear details of each product while clicking to the product’s picture.
 
+* User Page *
+When we logged in as a User, we will have the option to choose between viewing our personal information or travel to the main page which is the all product page or cart page after we have ordered.
+In the personal information page we will be able to see our Username, E-mail, Profile picture and our address
+In the Customer page ( all product) we can view all the products that are available by the vendors. There also a filter bar which to help filter unnesscessary items to the customer desires. After filtering each product can be clicked on which will navigate us to a page displaying the clicked items.
+In this details page, information such as product's name, price, quantities we want to added to our cart and the product's description. There is also a add to cart button to store all the chosen value in localstorage.
+In the cart page is where we get the value for localstorage and append it into the table to show the items that we have added to cart. This page also have a remove button to remove item that we no longer want. The Cart page also have a update total function which automatically update our total price whenever we changed our cart and lastly is the Proceed to Checkout button. This button is used to finalize our shopping session, when clicked the cart will be clear and all of the information will be sent to the next phase of the process.
