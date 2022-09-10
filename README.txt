@@ -38,4 +38,16 @@ I am currently at the very first page of our website, the index.php. Here, users
 For the username field, apart from having to meet the length and character constraints, users must enter a name that never appears in the whole system’s username record. Meanwhile, each vendor account must use a unique business address and business name. These unique constraints use php, so the error will be displayed on the screen only after the users submit the form.
 Only after fulfilling all the criteria, would the users receive a message and a record of their registration information. Now, they can click Login to access that newly created account. 
 
+/Vendor/
+After login, the seller will directly move to the vendor page,
+ the vendor page includes two pages to add products and view products
+On the add product page
+will include name, price, description, and image upload
+Each input will have a separate requirement such as:
+- All input text should not be empty
+- Product name must contain at least 10 characters, at most 20
+- The description must contain at most 500 characters
+If some inputs are not correct, the seller will not be able to add the product
+After adding the product, the products will be updated on the view products page. The seller can see the clear details of each product while clicking to the product’s picture.
+
 
