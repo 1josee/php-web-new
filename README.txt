@@ -30,8 +30,10 @@ Password: Shipper02!
 Username: Energetic
 Password: Shipper03!
 
+// URL to our demonstration video
+https://youtu.be/sOmV4kvrnVs
 
-Script Web:
+//Script Web
 
 Greetings Professors, we are Group 19 of class COSC2430 and this is the instruction video for our website. 
 I am currently at the very first page of our website, the index.php. Here, users can click login if they want to use their existing accounts, or they can choose the role for the new accounts they are about to create. After clicking on one of the three options: vendor, customer, or shipper, they will be directed to the registration page corresponding to the role they have chosen. They need to fill out the required fields displayed on that page to finish registering. Each field may or may not have input constraint relating to length and character, and if the users violate at least one constraint, there will be message(s) to notify them. 
