@@ -39,4 +39,10 @@ For the username field, apart from having to meet the length and character const
 Only after fulfilling all the criteria, would the users receive a message and a record of their registration information. Now, they can click Login to access that newly created account. 
 In the login page, you can log in to the website by the account that you register before. After logging in you will be redirected to the my account page. In this page it will show all the information you provided when you signed up. You can also change the profile picture by clicking the change profile picture button. Then choose the picture you want to change and click submit. And now your profile picture has been changed.
 After login into the website as a shipper, you can click on the orders button to open the shipper page. This page will show all orders of the distribution hub that the shipper registers. You can change the status of the order you want from active to delivered or canceled then click submit. If the status of the order is not active, it will disappear. If you want to see more detail about the order, you can click on the id. On this page, you can see more information like the name or address of the customer.
+After login, the seller will directly move to the vendor page, which includes two pages to add products and view products. On the add product page will include name, price, description, and image upload
+Each input will have a separate requirement such as:
+- All input text should not be empty
+- Product name must contain at least 10 characters, at most 20
+- The description must contain at most 500 characters
+If some inputs are not correct, the seller will not be able to add the product. After adding the product, the products will be updated on the page. The seller can see the clear details of each product while clicking to the product’s picture.
 
